@@ -14,7 +14,7 @@ defmodule PusherClient.Mixfile do
 
   defp deps do
     [ {:websocket_client, git: "https://github.com/sanmiguel/websocket_client", branch: "master"},
-      { :exjsx, "~> 3.0" },
+      { :exjsx, "~> 4.0" },
       { :meck, "~> 0.8.2", only: :test } ]
   end
 end
